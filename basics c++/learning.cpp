@@ -9,8 +9,13 @@ using namespace std ;
 
 int main(){
 
+    int a = 075 ; // then the integer has value starting with 01 to 07   then it is treated as octal 
+    int b = 0X21 ; // if the value if interger is starting with ox then it will be treated as hexadecimal
+
+    cout<<b ;
+
     // clrscr();   it was used in turboc++ but now mordern compiler like gcc and all doesn't support that so we have to write 
-    system("cls");
+    // system("cls");
     // int a = 10 ;
     // int *p ;
     // p = &a ;
@@ -32,18 +37,18 @@ int main(){
     // reference variable  and pointer variable
 
 
-    char a = 'g' ;
-    char *p = &a ;
-    cout<<*p <<endl;
+    // char a = 'g' ;
+    // char *p = &a ;
+    // cout<<*p <<endl;
 
 
-    char m  = 'p' ;
+    // char m  = 'p' ;
 
-    char &q = m ;
+    // char &q = m ;
 
-    cout<<q ;
+    // cout<<q ;
 
-    // 
+//    we cant do nesting in multiline comment 
 
 
 
