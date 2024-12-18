@@ -1,0 +1,19 @@
+1. c++ is a superset of c .
+ 
+2. c++ programs can use existing c software libraries , so we can use printf scanf and many more function we used to use in c in c++ too . 
+
+3. c follows top down approach of programming where as c++ follows bottom up approach of programming . top down ka matlab hota hai jab hum koi program likh rahe ho tho pahela high-level modules  create karenge and then low level module , but bottom up appproach mai hum pahela low level ko implement karenga aur fir combine karke high level module banalenge bootom up jyada efficient hota hai .
+
+
+4. objects : a entity that has a collecation of data members and member function is known as objects . 
+
+5 : pillers of object oriented programming paradigm are : encapsulation , data hiding , abstraction , inheritance , polymorphism .
+
+encapsulation : when we bind data members and member funtion or methods together then this is known as encapsulation . 
+
+class is a blueprint  for creating a object 
+ 
+ 
+
+
+
