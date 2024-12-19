@@ -23,7 +23,8 @@ class C {
         this->b = 0 ;
     }
 
-    C operator+(C &a){
+    C operator+(C &a){   // using operator keyword we can do operator overloading   and we can only use some symbol which is previoly is an operator in c++ like + - * / >> <<   while we use operator oveloading then we dont have to use . and () in this case 
+
         C temp;
         temp.a = this->a + a.a;
         temp.b = this->b + a.b ;
